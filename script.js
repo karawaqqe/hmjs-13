@@ -1,7 +1,7 @@
 //  1
 const user = {
-  name: "John",
-  age: 30,
+  name: "Mel",
+  age: 18,
   hobby: "reading",
   premium: true,
 };
@@ -134,7 +134,7 @@ const account = {
 
 account.deposit(1000);
 account.withdraw(500);
-account.withdraw(800);
+account.withdraw(800);  // хватает
 console.log(account.getBalance());
 console.log(account.transactions);
 const { id } = account.transactions[0];
